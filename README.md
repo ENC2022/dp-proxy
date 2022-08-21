@@ -18,7 +18,7 @@ Patron estructural
 
 ### Ejemplo Real
 
-Mediante la implementación del patrón de diseño Proxy crearemos un mecanismo de seguridad, el cual intercepte las ejecuciones de procesos para validar si el usuario que intenta ejecutar cuenta con los privilegios necesarios, evitando que usuarios no autorizados los ejecuten, además, una vez que el proceso es ejecutado, se auditara la ejecución y quedará un registra de la ejecución. Todo esto se realizará sin que el usuario se dé cuenta, pues el proxy envolverá la lógica de seguridad.
+Mediante la implementación del patrón de diseño Proxy crearemos un mecanismo de seguridad, el cual intercepte las ejecuciones de procesos para validar si el usuario que intenta ejecutar cuenta con los privilegios necesarios, evitando que usuarios no autorizados los ejecuten, además, una vez que el proceso es ejecutado, se auditara la ejecución y quedará un registro de la ejecución. Todo esto se realizará sin que el usuario se dé cuenta, pues el proxy envolverá la lógica de seguridad.
 
 ![image](https://user-images.githubusercontent.com/55771796/173483277-090819fc-693c-4d30-87af-92443799d05b.png)
 
